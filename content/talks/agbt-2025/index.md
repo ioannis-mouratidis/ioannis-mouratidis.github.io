@@ -3,6 +3,8 @@ title: "Nucleic quasi-primes: identification of the shortest unique oligonucleot
 event: AGBT General Meeting
 event_url: ''
 location: Marco Island, FL, USA
+presentation_type: Oral presentation
+attendance: 250
 summary: Oral presentation (~250 attendees)
 abstract: ''
 
@@ -16,9 +18,9 @@ authors:
   - me
 
 tags:
+  - Computational Biology
   - Quasi-primes
-  - Oligonucleotides
-  - Species Identification
+
 
 featured: true
 

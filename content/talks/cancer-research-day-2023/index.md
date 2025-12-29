@@ -3,6 +3,8 @@ title: "Leveraging sequences missing from the human genome to diagnose cancer"
 event: Cancer Research Day
 event_url: ''
 location: State College, PA, USA
+presentation_type: Oral presentation
+attendance: 150
 summary: Oral presentation (~150 attendees)
 abstract: ''
 
@@ -17,8 +19,6 @@ authors:
 
 tags:
   - Cancer Detection
-  - Nullomers
-  - Diagnostics
 
 featured: false
 

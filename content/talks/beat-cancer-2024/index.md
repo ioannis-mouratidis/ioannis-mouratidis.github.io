@@ -3,6 +3,8 @@ title: "Leveraging sequences missing from the human genome to diagnose cancer"
 event: Beat Childhood Cancer Research Consortium Annual Meeting
 event_url: ''
 location: Hershey, PA, USA
+presentation_type: Invited talk
+attendance: 150
 summary: Invited talk (~150 attendees)
 abstract: ''
 
@@ -17,8 +19,7 @@ authors:
 
 tags:
   - Cancer Detection
-  - Nullomers
-  - Invited Talk
+
 
 featured: true
 

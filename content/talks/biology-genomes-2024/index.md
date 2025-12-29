@@ -3,6 +3,7 @@ title: "kmerDB: A database encompassing the set of genomic and proteomic sequenc
 event: Biology of Genomes
 event_url: ''
 location: Cold Spring Harbor, NY, USA
+presentation_type: Poster presentation
 summary: Poster presentation
 abstract: ''
 
@@ -16,9 +17,8 @@ authors:
   - me
 
 tags:
-  - kmerDB
+  - Computational Biology
   - Database
-  - K-mers
 
 featured: false
 

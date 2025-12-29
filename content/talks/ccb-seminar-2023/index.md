@@ -3,6 +3,8 @@ title: "Quasi-primes: identifying the shortest species-specific sequences"
 event: Center for Computational Biology and Bioinformatics Seminar
 event_url: ''
 location: State College, PA, USA
+presentation_type: Seminar
+attendance: 40
 summary: Seminar (~40 attendees)
 abstract: ''
 
@@ -16,9 +18,9 @@ authors:
   - me
 
 tags:
+  - Computational Biology
   - Quasi-primes
-  - Seminar
-  - Species Identification
+
 
 featured: false
 

@@ -3,6 +3,8 @@ title: "Identification of the shortest species-specific oligonucleotide sequence
 event: Revolutionizing Next-Generation Sequencing
 event_url: ''
 location: Antwerp, Belgium
+presentation_type: Poster pitch and poster presentation
+attendance: 300
 summary: Poster pitch and poster presentation (~300 attendees)
 abstract: ''
 
@@ -16,9 +18,8 @@ authors:
   - me
 
 tags:
-  - Species Identification
-  - Oligonucleotides
-  - NGS
+  - Computational Biology
+  - Quasi-primes
 
 featured: false
 

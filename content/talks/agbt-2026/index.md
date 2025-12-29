@@ -1,9 +1,11 @@
 ---
-title: "Fundamental Limitations of Large Language Models for Genomic Sequence Generation"
+title: "(Upcoming) Fundamental Limitations of Genomic Foundation Models for Sequence Generation"
 event: AGBT General Meeting
 event_url: ''
 location: Orlando, FL, USA
-summary: Oral presentation on limitations of LLMs for genomic sequence generation
+presentation_type: Oral presentation
+attendance: 250
+summary: Oral presentation on limitations of genomic foundation models for sequence generation
 abstract: ''
 
 date: '2026-02-01T00:00:00Z'
@@ -16,8 +18,7 @@ authors:
   - me
 
 tags:
-  - Large Language Models
-  - Genomics
+  - Genomic Foundation Models
   - AI Evaluation
 
 featured: true
@@ -26,5 +27,3 @@ links: []
 
 projects: []
 ---
-
-Oral presentation at the AGBT General Meeting on fundamental limitations of large language models for genomic sequence generation.

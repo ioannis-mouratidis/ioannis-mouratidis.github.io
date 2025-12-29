@@ -3,6 +3,7 @@ title: "Leveraging sequences missing from the human genome to diagnose cancer"
 event: Center for Molecular Carcinogenesis and Toxicology Symposium
 event_url: ''
 location: Austin, TX, USA
+presentation_type: Oral presentation
 summary: Oral presentation on cancer detection using nullomers
 abstract: ''
 
@@ -17,8 +18,7 @@ authors:
 
 tags:
   - Cancer Detection
-  - Nullomers
-  - Diagnostics
+
 
 featured: true
 
