@@ -19,7 +19,11 @@ Professional academic website for Ioannis Mouratidis, Machine Learning & Genomic
 ### Prerequisites
 
 - Hugo Extended v0.119.0 or later ([installation guide](https://gohugo.io/installation/))
+- Node.js v20+ and npm ([installation guide](https://nodejs.org/))
 - Git
+- Go 1.19+ (required for Hugo modules) ([installation guide](https://go.dev/dl/))
+
+**Note**: Hugo Extended is required (not standard Hugo) for Tailwind CSS processing and advanced image handling.
 
 ### Running Locally
 
@@ -29,22 +33,50 @@ git clone https://github.com/YOUR-USERNAME/academic-website.git
 cd academic-website
 ```
 
-2. Update submodules:
+2. Install dependencies:
 ```bash
-git submodule update --init --recursive
+npm install
 ```
 
 3. Start the development server:
 ```bash
-hugo server
+npm run dev
+# or
+hugo server --disableFastRender
 ```
 
 4. Open your browser to [http://localhost:1313](http://localhost:1313)
 
+The development server will automatically reload when you make changes to files.
+
+### Common Issues
+
+**"Go not found in PATH" error:**
+- Install Go from https://go.dev/dl/ and ensure it's in your system PATH
+- Hugo requires Go for module management
+
+**Tailwind CSS build errors:**
+- Ensure your project path contains no spaces
+- If path has spaces, rename the directory (e.g., "Personal website" → "Personal-website")
+
+**Port 1313 already in use:**
+```bash
+hugo server -p 1314  # Use a different port
+```
+
 ## Updating Content
 
 ### Personal Information
-Edit [`content/authors/me/_index.md`](content/authors/me/_index.md)
+
+**IMPORTANT**: This site uses two author profile files that must be kept in sync:
+
+1. **Primary**: Edit [`data/authors/me.yaml`](data/authors/me.yaml) first
+   - Used by homepage biography and all profile widgets
+
+2. **Secondary**: Update [`content/authors/me/_index.md`](content/authors/me/_index.md) to match
+   - Creates the `/authors/me/` author profile page
+
+Always edit `me.yaml` first, then sync changes to `_index.md`.
 
 ### Publications
 
