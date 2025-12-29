@@ -12,7 +12,7 @@ postnominals:
   - PhD (expected 2026)
 status:
   icon: "🧬"
-role: Research Engineer/Scientist Associate V
+role: Senior Research Engineer/Scientist Associate
 bio: |
   Machine learning and genomics researcher with 33 publications (10 first-/corresponding-author).
   Co-founded AI-driven cancer biomarker startup, authored grants securing $4M+ in competitive funding
@@ -73,7 +73,7 @@ education:
       Honours: Very Good
 
 experience:
-  - role: Research Engineer/Scientist Associate V (Senior)
+  - role: Senior Research Engineer/Scientist Associate (Senior)
     org: University of Texas at Austin
     start: 2025-08-01
     summary: |
