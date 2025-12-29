@@ -17,7 +17,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Research Engineer/Scientist Associate V
+role: Research Engineer/Scientist Associate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
