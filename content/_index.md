@@ -70,6 +70,17 @@ sections:
         exclude_featured: false
     design:
       view: citation
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - talks
+        exclude_featured: false
+    design:
+      view: compact
+      columns: 2
   - block: markdown
     id: contact
     content:
