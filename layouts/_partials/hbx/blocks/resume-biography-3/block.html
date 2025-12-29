@@ -193,19 +193,16 @@
                     {{ $degree }}
                   </p>
                   {{/* Custom date formatting logic */}}
+                  {{ $date_format := site.Params.hugoblox.locale.date_format | default "Jan 2006" }}
                   {{ if .year }}
                     <p class="text-gray-500 dark:text-gray-400 text-sm mt-2">{{ .year }}</p>
-                  {{ else if .start }}
+                  {{ else if or .start .date_start }}
+                    {{/* Format start/end or date_start/date_end using site date format */}}
+                    {{ $start := or .start .date_start }}
+                    {{ $end := or .end .date_end }}
                     <p class="text-gray-500 dark:text-gray-400 text-sm mt-2">
-                      {{ .start }}
-                      {{ if .end }}<br>{{ .end }}{{ end }}
-                    </p>
-                  {{ else if .date_start }}
-                    {{/* Format date_start and date_end using site date format */}}
-                    {{ $date_format := site.Params.hugoblox.locale.date_format | default "Jan 2006" }}
-                    <p class="text-gray-500 dark:text-gray-400 text-sm mt-2">
-                      {{ time.Format $date_format (time .date_start) }}
-                      {{ if .date_end }} – {{ time.Format $date_format (time .date_end) }}{{ end }}
+                      {{ time.Format $date_format (time $start) }}
+                      {{ if $end }} – {{ time.Format $date_format (time $end) }}{{ end }}
                     </p>
                   {{ end }}
                   <p class="text-gray-700 dark:text-gray-300 text-base">{{ .institution }}</p>

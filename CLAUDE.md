@@ -148,10 +148,21 @@ authors: [me]
 featured: false
 ```
 
-**Author Profile** (`content/authors/me/_index.md`):
-- This is the canonical source for personal information
-- Used in author cards, publication listings, and biography blocks
-- Contains: name, role, organization, social profiles, interests, education, experience
+**Author Profile** - **IMPORTANT: Two files must be kept in sync**:
+
+1. **`data/authors/me.yaml`** (Primary - edit this first)
+   - Source of truth for biography blocks and widgets
+   - Loaded by `get_author_profile` function
+   - Used on homepage, experience page, and all profile components
+   - Contains: name, role, bio, affiliations, social links, interests, education, experience, skills, languages, awards
+
+2. **`content/authors/me/_index.md`** (Secondary - keep in sync)
+   - Creates standalone author profile page at `/authors/me/`
+   - Used when clicking author name in publication lists
+   - Front matter should mirror `me.yaml` for consistency
+   - Can include additional markdown content below front matter for bio page
+
+**Workflow**: Always edit `data/authors/me.yaml` first, then update `content/authors/me/_index.md` front matter to match
 
 ### Date Formatting
 
@@ -329,8 +340,10 @@ Critical files that Claude Code may need to modify:
 - **Site Config**: `config/_default/hugo.yaml`
 - **Appearance/Theme**: `config/_default/params.yaml`
 - **Homepage Layout**: `content/_index.md`
-- **Personal Info**: `content/authors/me/_index.md`
+- **Personal Info (Primary)**: `data/authors/me.yaml`
+- **Personal Info (Page)**: `content/authors/me/_index.md`
 - **Module Dependencies**: `go.mod`
 - **Build Scripts**: `package.json`
 - **GitHub Actions**: `.github/workflows/hugo.yml`
 - **Netlify Config**: `netlify.toml`
+- **Custom Block Overrides**: `layouts/_partials/hbx/blocks/*/block.html`

@@ -79,7 +79,7 @@ sections:
           - talks
         exclude_featured: false
     design:
-      view: compact
+      view: card
       columns: 2
   - block: markdown
     id: contact
