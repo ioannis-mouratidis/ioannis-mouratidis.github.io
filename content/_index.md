@@ -42,9 +42,9 @@ sections:
       title: 'Research Focus'
       subtitle: ''
       text: |-
-        My research leverages machine learning and computational methods to advance genomic data analysis and cancer detection. I specialize in developing novel algorithms for k-mer based genomic analysis, training and evaluating genomic foundation models, and creating compression tools for large-scale genomic data.
+        My research leverages machine learning and computational methods to advance genomic data analysis and cancer detection. I specialize in developing novel algorithms for k-mer based genomic analysis, ML for large-scale biological data analysis, and training and evaluating genomic foundation models.
 
-        Key areas include: AI evals for genomic models, adversarial robustness in biological data, ML pipelines for liquid biopsy-based cancer detection, and analysis of non-B DNA structures. I've developed several widely-used bioinformatics tools including kmerDB (a comprehensive genomic/proteomic sequence database) and Zseeker (Z-DNA detection tool).
+        Key areas include: AI evals for genomic models, adversarial robustness in biological data, ML pipelines for liquid biopsy-based cancer detection, and analysis of non-B DNA structures. I've developed several open-source bioinformatics tools including kmerDB (a comprehensive genomic/proteomic sequence database) and Zseeker (Z-DNA detection tool).
 
         I'm always interested in collaborative research opportunities in computational genomics and AI applications in biology.
     design:
