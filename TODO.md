@@ -2,6 +2,14 @@
 
 ## Future Tasks
 
+### Add Projects Section
+- **Status:** Temporarily hidden from navigation
+- **Location:** Commented out in `config/_default/menus.yaml` (lines 16-19)
+- **Next steps:**
+  - Create projects content in appropriate directory
+  - Add project entries with descriptions, links, and relevant details
+  - Uncomment the Projects menu item once content is ready
+
 ### Fix Publications Section
 - **Status:** Temporarily removed from homepage
 - **Issue:** Publications section not working properly
