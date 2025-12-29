@@ -2,115 +2,170 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Ioannis Mouratidis
+  given: Ioannis
+  family: Mouratidis
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
 postnominals:
-  - PhD
-  - MIEEE
+  - PhD (expected 2026)
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🧬"
+role: Research Engineer/Scientist Associate V
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Machine learning and genomics researcher with 33 publications (10 first-/corresponding-author).
+  Co-founded AI-driven cancer biomarker startup, authored grants securing $4M+ in competitive funding
+  and currently lead 5-member team developing computational and ML methods for large-scale genomic
+  data analysis, with emphasis on genomic foundation models, k-mer based approaches, and AI applications
+  in cancer detection.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: University of Texas at Austin
+    url: https://www.utexas.edu/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:ioannis.mouratidis@austin.utexas.edu
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/mouratidis-ioannis
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/mouratidis-ioannis/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=UowZjXsAAAAJ
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Genomic Foundation Models
+  - AI Evals & Adversarial Robustness
+  - K-mer Based Genomic Analysis
+  - Machine Learning for Cancer Detection
+  - Compression Algorithms for Genomic Data
+  - Non-B DNA Structures (Z-DNA)
+  - Nullomers & Minimal Absent Words
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD in Bioinformatics and Genomics
+    institution: The Pennsylvania State University
+    start: 2023-08-01
+    end: 2026-01-01
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Doctoral thesis: Computational and Artificial Intelligence methods for large-scale omics data analysis
+
+      GPA: 4.0/4.0
     button:
-      text: Download dissertation
-      url: /resume.pdf
+      text: Download CV
+      url: /uploads/resume.pdf
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: M.Sc. in Artificial Intelligence
+    institution: KU Leuven
+    start: 2020-09-01
+    end: 2023-07-01
+    summary: |
+      Honours: Cum Laude
+
+      Master's thesis: Frequentmers – a k-mer based approach for the detection of liver cirrhosis gut microbiome mNGS
+  - degree: B.Sc. in Mathematics
+    institution: Aristotle University of Thessaloniki
+    start: 2013-10-01
+    end: 2018-03-01
+    summary: |
+      Honours: Very Good
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Research Engineer/Scientist Associate V (Senior)
+    org: University of Texas at Austin
+    start: 2025-08-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      - Directed 10 research initiatives (4 independently, 6 collaboratively) resulting in 2 peer-reviewed publications with 2 under review and 6 in preparation
+      - Lead 5-member team in developing, scaling and evaluating computational and ML methods in biological data
+      - Trained genomic foundation models to evaluate their susceptibility to adversarial data poisoning attacks
+      - Spearheaded novel compression tool in C++ and Python achieving 10-20% reduced file sizes and 50-70% faster compression times
+      - Led benchmarking of generative genomic models against real genomes
+  - role: Research Associate & Research Assistant
+    org: The Pennsylvania State University
+    start: 2023-08-01
+    end: 2025-08-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      - Engineered novel algorithms in Python and Bash for k-mer analysis; 12 peer-reviewed publications (7 as first/corresponding author)
+      - Developed kmerDB database consolidating DNA/protein sequences across Genbank and UniProt
+      - Published Zseeker, an open-source Python tool for Z-DNA detection in large genomic datasets
+      - Engineered ML pipelines for cancer detection from cfDNA and cfRNA based on liquid biopsies
+      - Supervised 8+ researchers and mentored 5 junior researchers to their first lead-author publications
+      - Organized workshop series around AI applications in biological research attended by 30+ participants
+  - role: Co-founder & Chief Technical Officer
+    org: Neomer Diagnostics
+    start: 2022-01-01
+    end: 2023-05-01
+    summary: |
+      - Co-founded diagnostics startup translating patented nullomer research into clinical cancer detection platform
+      - Developed ML pipeline in Bash, Julia, Python, and Slurm achieving AUC ranging from 0.89 to 0.94 in lung and ovarian cancers
+      - Established regulatory roadmap for clinical validation and FDA approval
+      - Secured $850K in translational research funding
+  - role: Software Engineering Consultant
+    org: Independent Contractor
+    start: 2020-02-01
+    end: 2023-08-01
+    summary: |
+      - Optimized cancer genomics ML pipeline using Julia, achieving 50-fold speed increase, saving >3 months of computational time and $50K+ in costs
+      - Created distributed computing pipelines for analysis of 100+TB of genomic data
+      - Deployed and managed genomic analysis pipeline to Google Cloud Platform
+      - Engineered compression procedure achieving 100-fold reduction, enabling development of kmerDB database
 
 skills:
   - name: Technical Skills
     items:
       - label: Python
         level: 5
+        description: Pandas, NumPy, scikit-learn, PyTorch, Matplotlib
       - label: Machine Learning
         level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
+        description: AI evals, genomic Language Models, algorithm design and optimization
+      - label: Bioinformatics
         level: 5
-      - label: Conference Presentations
+        description: Large-scale genomic data analysis, k-mer methods, ML pipelines
+      - label: Programming
         level: 4
-      - label: Grant Proposals
+        description: Bash, Julia, C++, Java
+      - label: Cloud & Tools
         level: 4
+        description: Google Cloud Platform, Git, Docker, Scientific Computing
 
 languages:
-  - name: English
+  - name: Greek
     level: 5
     label: Native
-  - name: Spanish
-    level: 4
+  - name: English
+    level: 5
     label: Fluent
+  - name: French
+    level: 5
+    label: Fluent
+  - name: German
+    level: 5
+    label: Fluent
+  - name: Japanese
+    level: 2
+    label: Elementary
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Center for Molecular Carcinogenesis and Toxicology Symposium Abstract Award
+    awarder: Penn State College of Medicine
+    date: "2024-01-01"
+    summary: 1st place award for outstanding research presentation
+    icon: hero/trophy
+  - title: Alumni Society Award
+    awarder: Penn State College of Medicine
+    date: "2024-01-01"
+    summary: Awarded to top 5% of graduate students for outstanding research contributions
+    icon: hero/trophy
+  - title: University Graduate Fellow
+    awarder: Penn State
+    date: "2023-01-01"
+    summary: Competitive fellowship awarded to top 1% of incoming graduate students
+    icon: hero/trophy
+  - title: Huck Distinguished Fellow
+    awarder: Penn State Huck Institutes
+    date: "2023-01-01"
+    summary: Prestigious fellowship awarded to top 3% of graduate students in life sciences
     icon: hero/trophy

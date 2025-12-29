@@ -34,8 +34,8 @@ profiles:
     url: https://www.linkedin.com/in/mouratidis-ioannis/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=UowZjXsAAAAJ
-  - icon: academicons/orcid
-    url: https://orcid.org/YOUR-ORCID-ID
+  - icon: brands/github
+    url: https://github.com/mouratidis-ioannis
 
 interests:
   - Genomic Foundation Models
