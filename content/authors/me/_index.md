@@ -35,7 +35,7 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=UowZjXsAAAAJ
   - icon: brands/github
-    url: https://github.com/mouratidis-ioannis
+    url: https://github.com/ioannis-mouratidis
 
 interests:
   - Genomic Foundation Models
