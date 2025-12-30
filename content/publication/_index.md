@@ -13,7 +13,15 @@ banner:
   image: ''
 ---
 
-<div style="display: flex; justify-content: center; gap: 2rem; margin-bottom: 1rem;">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem; margin-bottom: 1rem; font-size: 0.9rem;">
   <span><strong>*</strong> indicates first or co-first author</span>
   <span>✉ indicates corresponding author (project supervision)</span>
 </div>
+<style>
+  @media (min-width: 768px) {
+    .pub-list-item + div > div {
+      flex-direction: row !important;
+      gap: 2rem !important;
+    }
+  }
+</style>
