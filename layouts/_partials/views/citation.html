@@ -12,12 +12,17 @@
   </span>
   ({{- $item.Date.Format "2006" -}}).
   {{ $doi := "" }}
+  {{ $link_url := "" }}
   {{ with $item.Params.hugoblox.ids.doi }}{{ $doi = . }}{{ end }}
   {{ with $item.Params.doi }}{{ $doi = . }}{{ end }}
+  {{ with $item.Params.external_link }}{{ $link_url = . }}{{ end }}
+  {{ range $item.Params.links }}
+    {{ if and (not $link_url) .url }}{{ $link_url = .url }}{{ end }}
+  {{ end }}
   {{ if $doi }}
     <a href="https://doi.org/{{ $doi }}" class="underline" target="_blank" rel="noopener">{{ $item.Title }}</a>.
-  {{ else if $item.Params.external_link }}
-    <a href="{{ $item.Params.external_link }}" class="underline" target="_blank" rel="noopener">{{ $item.Title }}</a>.
+  {{ else if $link_url }}
+    <a href="{{ $link_url }}" class="underline" target="_blank" rel="noopener">{{ $item.Title }}</a>.
   {{ else }}
     <span class="font-medium">{{ $item.Title }}</span>.
   {{ end }}
@@ -40,12 +45,17 @@
     {{ partial "page_metadata_authors" $item }}.
   </span>
   {{ $doi := "" }}
+  {{ $link_url := "" }}
   {{ with $item.Params.hugoblox.ids.doi }}{{ $doi = . }}{{ end }}
   {{ with $item.Params.doi }}{{ $doi = . }}{{ end }}
+  {{ with $item.Params.external_link }}{{ $link_url = . }}{{ end }}
+  {{ range $item.Params.links }}
+    {{ if and (not $link_url) .url }}{{ $link_url = .url }}{{ end }}
+  {{ end }}
   {{ if $doi }}
     <a href="https://doi.org/{{ $doi }}" target="_blank" rel="noopener">{{ $item.Title }}</a>.
-  {{ else if $item.Params.external_link }}
-    <a href="{{ $item.Params.external_link }}" target="_blank" rel="noopener">{{ $item.Title }}</a>.
+  {{ else if $link_url }}
+    <a href="{{ $link_url }}" target="_blank" rel="noopener">{{ $item.Title }}</a>.
   {{ else }}
     <span class="font-medium">{{ $item.Title }}</span>.
   {{ end }}
