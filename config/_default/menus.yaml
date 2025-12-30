@@ -10,8 +10,8 @@ main:
   - name: Talks
     url: /#talks
     weight: 12
-  - name: Experience
-    url: experience/
+  - name: CV
+    url: /uploads/resume.pdf
     weight: 20
   # TODO: Add projects section content and uncomment
   # - name: Projects
