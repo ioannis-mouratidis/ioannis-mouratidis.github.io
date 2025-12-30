@@ -53,7 +53,7 @@ sections:
     id: publications
     content:
       title: Publications
-      text: '<div style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem; margin-bottom: 1rem; font-size: 0.9rem;"><span><strong>*</strong> indicates first or co-first author</span><span>✉ indicates corresponding author (project supervision)</span></div><style>@media (min-width: 768px) { #publications div[style*="flex-direction: column"] { flex-direction: row !important; gap: 2rem !important; }}</style>'
+      text: '<div class="pub-legend" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.5rem; margin-bottom: 1rem; font-size: 0.9rem;"><span><strong>*</strong> first or co-first author</span><span>✉ corresponding author (project supervision)</span></div><style>@media (min-width: 768px) { .pub-legend { flex-direction: row !important; gap: 1.5rem !important; }}</style>'
       filters:
         folders:
           - publication
@@ -85,4 +85,54 @@ sections:
         I'm always open to discussing research collaborations, consulting opportunities, or mentoring in bioinformatics and machine learning.
     design:
       columns: '1'
+  - block: markdown
+    content:
+      text: |-
+        <script>
+        (function() {
+          'use strict';
+          const myNames = [
+            'Ioannis Mouratidis',
+            'ioannis mouratidis',
+            'I. Mouratidis',
+            'I Mouratidis',
+            'Mouratidis, I.',
+            'Mouratidis, Ioannis',
+            'Mouratidis I'
+          ];
+          function boldMyName() {
+            const pubSection = document.querySelector('#publications');
+            if (!pubSection) return;
+            const elements = pubSection.querySelectorAll('span, p, div, .article-metadata, .pub-authors, .li-cite-author');
+            elements.forEach(element => {
+              const text = element.textContent.trim();
+              if (!text || element.querySelector('strong.author-self')) return;
+              let html = element.innerHTML;
+              let modified = false;
+              myNames.forEach(name => {
+                const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+                const regex = new RegExp(`(^|[^>a-zA-Z])(${escapedName})([^<a-zA-Z]|$)`, 'gi');
+                const newHtml = html.replace(regex, (match, before, nameMatch, after) => {
+                  if (match.includes('<strong')) return match;
+                  modified = true;
+                  return `${before}<strong class="author-self">${nameMatch}</strong>${after}`;
+                });
+                if (newHtml !== html) html = newHtml;
+              });
+              if (modified) element.innerHTML = html;
+            });
+          }
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', boldMyName);
+          } else {
+            boldMyName();
+          }
+          setTimeout(boldMyName, 500);
+          setTimeout(boldMyName, 1500);
+        })();
+        </script>
+    design:
+      columns: '1'
+      spacing:
+        padding: ['0', '0', '0', '0']
 ---

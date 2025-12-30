@@ -1,0 +1,57 @@
+{{ define "main" }}
+{{ $item := . }}
+{{ $view := "card" }}
+{{ partial "functions/render_view" (dict "page" . "item" $item "view" $view) }}
+
+<script>
+(function() {
+  'use strict';
+
+  function boldMyName() {
+    // Find all text nodes and span elements
+    const allElements = document.querySelectorAll('span, p, div, a, .article-metadata, .pub-authors, .li-cite-author');
+
+    allElements.forEach(element => {
+      // Skip if already processed
+      if (element.querySelector('strong.author-self')) return;
+      if (element.classList.contains('author-self-processed')) return;
+
+      const text = element.textContent;
+
+      // Check if this element contains my name (case insensitive)
+      if (/ioannis\s+mouratidis/i.test(text)) {
+        // Only process leaf elements (no significant child elements)
+        if (element.children.length === 0 ||
+            (element.children.length === 1 && element.children[0].tagName === 'SVG')) {
+
+          let html = element.innerHTML;
+
+          // Replace all variations of my name
+          html = html.replace(/(ioannis\s+mouratidis)/gi, '<strong class="author-self">$1</strong>');
+          html = html.replace(/(i\.\s*mouratidis)/gi, '<strong class="author-self">$1</strong>');
+          html = html.replace(/(mouratidis,\s*i\.?)/gi, '<strong class="author-self">$1</strong>');
+
+          if (html !== element.innerHTML) {
+            element.innerHTML = html;
+            element.classList.add('author-self-processed');
+          }
+        }
+      }
+    });
+  }
+
+  // Run multiple times to catch dynamically loaded content
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+      boldMyName();
+      setTimeout(boldMyName, 300);
+      setTimeout(boldMyName, 1000);
+    });
+  } else {
+    boldMyName();
+    setTimeout(boldMyName, 300);
+    setTimeout(boldMyName, 1000);
+  }
+})();
+</script>
+{{ end }}
