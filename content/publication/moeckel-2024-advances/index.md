@@ -1,8 +1,6 @@
 ---
 title: 'Advances in computational and experimental approaches for deciphering transcriptional
-  regulatory networks: Understanding the roles of cis-regulatory elements is essential,
-  and recent research utilizing MPRAs, STARR-seq, CRISPR-Cas9, and machine learning
-  has yielded valuable insights'
+  regulatory networks'
 authors:
 - Camille Moeckel
 - Ioannis Mouratidis
