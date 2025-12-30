@@ -13,4 +13,5 @@ publishDate: '2025-12-30T17:22:16.014675Z'
 publication_types:
 - article-journal
 publication: '*Protein Science*'
+doi: 10.1002/pro.70241
 ---

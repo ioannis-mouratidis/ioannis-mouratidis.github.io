@@ -50,6 +50,17 @@ sections:
     design:
       columns: '1'
   - block: collection
+    id: publications
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
+        featured_only: false
+    design:
+      view: citation
+      columns: 1
+  - block: collection
     id: talks
     content:
       title: Presentations

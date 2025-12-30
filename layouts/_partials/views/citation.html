@@ -1,0 +1,60 @@
+{{ $item := .item }}
+{{ $has_attachments := partial "functions/has_attachments" $item }}
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  {{/* APA Style */}}
+  {{ if eq (site.Params.hugoblox.content.citations.style | default "apa") "apa" }}
+
+  <span class="article-metadata li-cite-author" style="text-transform: none;">
+    {{ partial "page_metadata_authors" $item }}
+  </span>
+  ({{- $item.Date.Format "2006" -}}).
+  {{ if $item.Params.doi }}
+    <a href="https://doi.org/{{ $item.Params.doi }}" class="underline" target="_blank" rel="noopener">{{ $item.Title }}</a>.
+  {{ else if $item.Params.url }}
+    <a href="{{ $item.Params.url }}" class="underline" target="_blank" rel="noopener">{{ $item.Title }}</a>.
+  {{ else }}
+    <span class="font-medium">{{ $item.Title }}</span>.
+  {{ end }}
+  {{ if $item.Params.publication_short }}
+    {{- $item.Params.publication_short | markdownify -}}.
+  {{ else if $item.Params.publication }}
+    {{- $item.Params.publication | markdownify -}}.
+  {{ end }}
+
+  {{ if $has_attachments }}
+  <div class="flex flex-wrap space-x-3">
+    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+  </div>
+  {{ end }}
+
+  {{/* MLA Style */}}
+  {{ else }}
+
+  <span class="article-metadata li-cite-author" style="text-transform: none;">
+    {{ partial "page_metadata_authors" $item }}.
+  </span>
+  {{ if $item.Params.doi }}
+    <a href="https://doi.org/{{ $item.Params.doi }}" target="_blank" rel="noopener">{{ $item.Title }}</a>.
+  {{ else if $item.Params.url }}
+    <a href="{{ $item.Params.url }}" target="_blank" rel="noopener">{{ $item.Title }}</a>.
+  {{ else }}
+    <span class="font-medium">{{ $item.Title }}</span>.
+  {{ end }}
+  {{ if $item.Params.publication_short }}
+    {{- $item.Params.publication_short | markdownify -}},
+  {{ else if $item.Params.publication }}
+    {{- $item.Params.publication | markdownify -}},
+  {{ end }}
+  {{- $item.Date.Format "2006" -}}.
+
+  {{ if $has_attachments }}
+  <div class="flex flex-wrap space-x-3">
+    {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+  </div>
+  {{ end }}
+
+  {{ end }}
+</div>

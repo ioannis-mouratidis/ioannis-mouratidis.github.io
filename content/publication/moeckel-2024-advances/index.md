@@ -14,4 +14,5 @@ publishDate: '2025-12-30T17:22:15.839461Z'
 publication_types:
 - article-journal
 publication: '*BioEssays*'
+doi: 10.1016/j.csbj.2024.05.025
 ---

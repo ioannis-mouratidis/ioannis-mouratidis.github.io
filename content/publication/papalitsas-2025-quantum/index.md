@@ -12,4 +12,5 @@ publishDate: '2025-12-30T17:22:16.070727Z'
 publication_types:
 - article-journal
 publication: '*bioRxiv*'
+doi: 10.64898/2025.12.21.695808
 ---

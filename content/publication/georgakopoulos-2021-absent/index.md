@@ -12,4 +12,5 @@ publishDate: '2025-12-30T17:22:15.734483Z'
 publication_types:
 - article-journal
 publication: '*Genome Biology*'
+doi: 10.1186/s13059-021-02459-z
 ---

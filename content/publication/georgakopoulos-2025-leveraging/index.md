@@ -17,4 +17,5 @@ publishDate: '2025-12-30T17:22:16.035456Z'
 publication_types:
 - article-journal
 publication: '*Communications Medicine*'
+doi: 10.1038/s43856-025-01067-3
 ---

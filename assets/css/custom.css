@@ -1,0 +1,21 @@
+/* Preserve proper capitalization for author names in all contexts */
+.article-metadata.li-cite-author,
+.article-metadata.li-cite-author *,
+.li-cite-author,
+.li-cite-author * {
+  text-transform: none !important;
+}
+
+/* Additional selectors for author metadata */
+span.article-metadata.li-cite-author,
+span.article-metadata.li-cite-author span,
+span.article-metadata.li-cite-author a {
+  text-transform: none !important;
+}
+
+/* Global override for any author-related elements */
+[class*="author"],
+[class*="Author"],
+[class*="cite"] {
+  text-transform: none !important;
+}

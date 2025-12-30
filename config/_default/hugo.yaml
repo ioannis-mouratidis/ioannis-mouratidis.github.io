@@ -29,6 +29,7 @@ pagination:
   pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
+disablePathToLower: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 disableAliases: true
