@@ -14,5 +14,5 @@ publication_types:
 publication: '*BioEssays*'
 hugoblox:
   ids:
-    doi: 10.1016/j.csbj.2024.05.025
+    doi: 10.1002/bies.202300210
 ---

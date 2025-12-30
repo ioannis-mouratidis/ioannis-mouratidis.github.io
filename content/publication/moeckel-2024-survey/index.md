@@ -17,5 +17,5 @@ publication_types:
 publication: '*Computational and Structural Biotechnology Journal*'
 hugoblox:
   ids:
-    doi: 10.1002/bies.202300210
+    doi: 10.1016/j.csbj.2024.05.025
 ---
