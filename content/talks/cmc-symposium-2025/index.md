@@ -4,6 +4,7 @@ event: Center for Molecular Carcinogenesis and Toxicology Symposium
 event_url: ''
 location: Austin, TX, USA
 presentation_type: Oral presentation
+attendance: 50
 summary: Oral presentation on cancer detection using nullomers
 abstract: ''
 

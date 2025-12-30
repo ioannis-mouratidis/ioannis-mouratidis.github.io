@@ -4,7 +4,6 @@ event: AGBT General Meeting
 event_url: ''
 location: Orlando, FL, USA
 presentation_type: Oral presentation
-attendance: 250
 summary: Oral presentation on limitations of genomic foundation models for sequence generation
 abstract: ''
 

@@ -1,5 +1,5 @@
 ---
-title: Talks & Presentations
+title: Presentations
 summary: Conference presentations, invited talks, and seminars
 date: 2025-12-29
 
