@@ -1,5 +1,6 @@
 ---
 title: Leveraging sequences missing from the human genome to diagnose cancer
+featured: true
 authors:
 - Ilias Georgakopoulos-Soares
 - Ofer Yizhar-Barnea

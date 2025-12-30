@@ -1,6 +1,7 @@
 ---
 title: 'Quasi-prime peptides: identification of the shortest peptide sequences unique
   to a species'
+featured: true
 authors:
 - Ioannis Mouratidis
 - Candace SY Chan

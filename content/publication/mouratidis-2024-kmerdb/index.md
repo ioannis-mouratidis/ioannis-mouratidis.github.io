@@ -1,6 +1,7 @@
 ---
 title: 'kmerDB: a database encompassing the set of genomic and proteomic sequence
   information for each species'
+featured: true
 authors:
 - Ioannis Mouratidis
 - Fotis A Baltoumas
