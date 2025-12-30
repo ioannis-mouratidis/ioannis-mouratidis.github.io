@@ -14,5 +14,7 @@ publishDate: '2025-12-30T17:22:15.859293Z'
 publication_types:
 - article-journal
 publication: '*Molecular metabolism*'
-doi: 10.1016/j.molmet.2024.101987
+hugoblox:
+  ids:
+    doi: 10.1016/j.molmet.2024.101987
 ---

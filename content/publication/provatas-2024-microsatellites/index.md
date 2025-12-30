@@ -12,5 +12,7 @@ publishDate: '2025-12-30T17:22:15.920899Z'
 publication_types:
 - article-journal
 publication: '*Computational and Structural Biotechnology Journal*'
-doi: 10.1016/j.csbj.2024.10.041
+hugoblox:
+  ids:
+    doi: 10.1016/j.csbj.2024.10.041
 ---

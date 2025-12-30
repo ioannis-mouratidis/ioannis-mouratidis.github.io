@@ -17,5 +17,7 @@ publishDate: '2025-12-30T17:22:15.754073Z'
 publication_types:
 - article-journal
 publication: '*Cancer gene therapy*'
-doi: 10.1038/s41417-024-00741-3
+hugoblox:
+  ids:
+    doi: 10.1038/s41417-024-00741-3
 ---

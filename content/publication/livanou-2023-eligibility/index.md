@@ -16,5 +16,7 @@ publishDate: '2025-12-30T17:22:15.797932Z'
 publication_types:
 - article-journal
 publication: '*Lung Cancer*'
-doi: 10.1016/j.lungcan.2023.107424
+hugoblox:
+  ids:
+    doi: 10.1016/j.lungcan.2023.107424
 ---

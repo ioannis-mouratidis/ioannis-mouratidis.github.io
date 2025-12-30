@@ -18,5 +18,7 @@ publishDate: '2025-12-30T17:22:15.828588Z'
 publication_types:
 - article-journal
 publication: '*Clinical and Translational Oncology*'
-doi: 10.1007/s12094-025-04097-4
+hugoblox:
+  ids:
+    doi: 10.1007/s12094-025-04097-4
 ---

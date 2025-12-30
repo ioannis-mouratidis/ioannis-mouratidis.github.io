@@ -17,5 +17,7 @@ publishDate: '2025-12-30T17:22:15.962310Z'
 publication_types:
 - article-journal
 publication: '*Genome research*'
-doi: 10.1101/gr.280070.124
+hugoblox:
+  ids:
+    doi: 10.1101/gr.280070.124
 ---

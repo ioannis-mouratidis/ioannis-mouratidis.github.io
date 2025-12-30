@@ -9,5 +9,7 @@ publishDate: '2025-12-30T17:22:16.060338Z'
 publication_types:
 - article-journal
 publication: '*Briefings in Bioinformatics*'
-doi: 10.1093/bib/bbaf648
+hugoblox:
+  ids:
+    doi: 10.1093/bib/bbaf648
 ---

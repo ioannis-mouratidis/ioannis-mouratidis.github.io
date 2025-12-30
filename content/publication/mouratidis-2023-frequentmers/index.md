@@ -15,5 +15,7 @@ publishDate: '2025-12-30T17:22:15.766948Z'
 publication_types:
 - article-journal
 publication: '*BMC genomics*'
-doi: 10.1186/s12864-023-09861-w
+hugoblox:
+  ids:
+    doi: 10.1186/s12864-023-09861-w
 ---

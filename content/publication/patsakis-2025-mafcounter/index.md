@@ -13,5 +13,7 @@ publishDate: '2025-12-30T17:22:15.941763Z'
 publication_types:
 - article-journal
 publication: '*BMC bioinformatics*'
-doi: 10.1186/s12859-025-06172-7
+hugoblox:
+  ids:
+    doi: 10.1186/s12859-025-06172-7
 ---
