@@ -20,5 +20,5 @@ publication_types:
 publication: '*bioRxiv*'
 hugoblox:
   ids:
-    doi: 10.1101/gr.279790.124
+    doi: 10.1101/2025.06.17.660256
 ---
