@@ -1,9 +1,14 @@
 {{ $item := .item }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 
-<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem; position: relative;">
+  {{ if or $item.Params.featured $item.Params.corresponding_author }}
+  <span class="pub-icon" aria-hidden="true" style="position: absolute; left: -3rem; top: 50%; transform: translateY(-50%); display: flex; align-items: center; line-height: 1; gap: 0.2em;">
+    {{ if $item.Params.featured }}<span style="font-size: 1.8em; line-height: 1; transform: translateY(0.1em); display: inline-block; font-weight: bold;">*</span>{{ end }}{{ if $item.Params.corresponding_author }}<span style="font-size: 1.0em; line-height: 1;">✉</span>{{ end }}
+  </span>
+  {{ else }}
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
+  {{ end }}
   {{/* APA Style */}}
   {{ if eq (site.Params.hugoblox.content.citations.style | default "apa") "apa" }}
 
