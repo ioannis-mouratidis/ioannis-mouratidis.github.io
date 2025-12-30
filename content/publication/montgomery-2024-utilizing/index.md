@@ -11,7 +11,7 @@ authors:
 - Nikos Syrigos
 - Ioannis Vathiotis
 - Konstantinos Syrigos
-- ' others'
+- et al.
 date: '2024-01-01'
 publishDate: '2025-12-30T17:22:15.754073Z'
 publication_types:

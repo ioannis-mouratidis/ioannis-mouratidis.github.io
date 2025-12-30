@@ -12,7 +12,7 @@ authors:
 - Austin Montgomery
 - Camille Moeckel
 - Ioannis Mouratidis
-- ' others'
+- et al.
 date: '2025-01-01'
 publishDate: '2025-12-30T17:22:16.004084Z'
 publication_types:

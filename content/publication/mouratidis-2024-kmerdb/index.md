@@ -12,7 +12,7 @@ authors:
 - Eleni Aplakidou
 - George C Georgakopoulos
 - Anshuman Das
-- ' others'
+- et al.
 date: '2024-01-01'
 publishDate: '2025-12-30T17:22:15.807582Z'
 publication_types:

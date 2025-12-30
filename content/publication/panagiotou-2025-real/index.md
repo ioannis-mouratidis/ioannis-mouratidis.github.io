@@ -12,7 +12,7 @@ authors:
 - Ioannis Trontzas
 - Nikolaos Konstantinos Syrigos
 - Ioannis Mouratidis
-- ' others'
+- et al.
 date: '2025-01-01'
 publishDate: '2025-12-30T17:22:15.828588Z'
 publication_types:

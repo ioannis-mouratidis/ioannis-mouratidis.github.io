@@ -11,7 +11,7 @@ authors:
 - Fotis A Baltoumas
 - Congzhou M Sha
 - Manvita Mareboina
-- ' others'
+- et al.
 date: '2025-01-01'
 publishDate: '2025-12-30T17:22:15.962310Z'
 publication_types:

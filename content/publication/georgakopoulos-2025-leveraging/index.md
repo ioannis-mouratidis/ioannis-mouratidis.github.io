@@ -11,7 +11,7 @@ authors:
 - Mayank Mahajan
 - Jasmine Sims
 - Dianne Laboy Cintron
-- ' others'
+- et al.
 date: '2025-01-01'
 publishDate: '2025-12-30T17:22:16.035456Z'
 publication_types:
