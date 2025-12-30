@@ -19,3 +19,40 @@ span.article-metadata.li-cite-author a {
 [class*="cite"] {
   text-transform: none !important;
 }
+
+/* Bold my own name in publications */
+strong.author-self {
+  font-weight: 700;
+}
+
+/* Bold my name in the navbar/header */
+.navbar-brand,
+a.navbar-brand,
+.page-header a[href="/"],
+header a[title*="Ioannis"],
+header a[title*="Mouratidis"] {
+  font-weight: 700 !important;
+}
+
+/* Publication legend responsive layout */
+.pub-legend,
+.publication-indicators {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 0.5rem !important;
+  margin-bottom: 1rem !important;
+  font-size: 0.9rem !important;
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* Desktop layout - side by side with more spacing */
+@media (min-width: 768px) {
+  .pub-legend,
+  .publication-indicators {
+    flex-direction: row !important;
+    gap: 3rem !important;
+  }
+}
