@@ -17,5 +17,5 @@ publication_types:
 publication: '*Nucleic acids research*'
 hugoblox:
   ids:
-    doi: 10.1093/bib/bbaf648
+    doi: 10.1093/nar/gkaf329
 ---
