@@ -12,3 +12,5 @@ banner:
   caption: ''
   image: ''
 ---
+
+\* indicates first or co-first author
