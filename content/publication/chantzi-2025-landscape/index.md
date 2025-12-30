@@ -12,7 +12,7 @@ authors:
 - Martin Hemberg
 - Karen M Vasquez
 - Chun Kit Kwok
-- ' others'
+- et al.
 date: '2025-01-01'
 publishDate: '2025-12-30T17:22:15.994501Z'
 publication_types:
