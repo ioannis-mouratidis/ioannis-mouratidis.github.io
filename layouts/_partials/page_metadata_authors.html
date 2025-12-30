@@ -5,10 +5,8 @@
     {{- $display := $author -}}
     {{- $highlight_name := false -}}
 
-    {{- if gt $index 0 }}, {{ end -}}
-    <span {{ if $highlight_name }}class="font-bold"{{end}} style="text-transform: none;">
-      {{ $display }}
-    </span>
+    {{- if gt $index 0 -}}, {{ end -}}
+    <span {{ if $highlight_name }}class="font-bold"{{end}} style="text-transform: none;">{{- $display -}}</span>
     {{- if isset $.Params "author_notes" -}}
       {{- with (index $.Params.author_notes $index) -}}
         <span class="relative inline-block ml-1" x-data="{ tooltip: false }">
