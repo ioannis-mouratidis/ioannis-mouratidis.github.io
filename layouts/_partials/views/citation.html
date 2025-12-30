@@ -3,17 +3,20 @@
 
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem; position: relative;">
   {{ if or $item.Params.featured $item.Params.corresponding_author }}
-  <span class="pub-icon" aria-hidden="true" style="display: flex; align-items: center; line-height: 1; gap: 0.2em; margin-bottom: 0.25rem;">
+  <span class="pub-icon" aria-hidden="true" style="display: none;">
     {{ if $item.Params.featured }}<span style="font-size: 1.8em; line-height: 1; transform: translateY(0.1em); display: inline-block; font-weight: bold;">*</span>{{ end }}{{ if $item.Params.corresponding_author }}<span style="font-size: 1.0em; line-height: 1;">✉</span>{{ end }}
   </span>
   <style>
     @media (min-width: 768px) {
       .pub-list-item .pub-icon {
+        display: flex !important;
+        align-items: center !important;
         position: absolute !important;
         left: -3rem !important;
         top: 50% !important;
         transform: translateY(-50%) !important;
-        margin-bottom: 0 !important;
+        line-height: 1 !important;
+        gap: 0.2em !important;
       }
     }
   </style>
@@ -49,8 +52,20 @@
   {{ end }}
 
   {{ if $has_attachments }}
-  <div class="flex flex-wrap space-x-3">
+  <div class="flex flex-wrap space-x-3" style="align-items: center;">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    {{ if or $item.Params.featured $item.Params.corresponding_author }}
+    <span class="pub-icon-mobile" style="display: flex; align-items: center; line-height: 1; gap: 0.2em; margin-left: 0.5rem;">
+      {{ if $item.Params.featured }}<span style="font-size: 1.8em; line-height: 1; transform: translateY(0.1em); display: inline-block; font-weight: bold;">*</span>{{ end }}{{ if $item.Params.corresponding_author }}<span style="font-size: 1.0em; line-height: 1;">✉</span>{{ end }}
+    </span>
+    <style>
+      @media (min-width: 768px) {
+        .pub-icon-mobile {
+          display: none !important;
+        }
+      }
+    </style>
+    {{ end }}
   </div>
   {{ end }}
 
@@ -83,8 +98,20 @@
   {{- $item.Date.Format "2006" -}}.
 
   {{ if $has_attachments }}
-  <div class="flex flex-wrap space-x-3">
+  <div class="flex flex-wrap space-x-3" style="align-items: center;">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
+    {{ if or $item.Params.featured $item.Params.corresponding_author }}
+    <span class="pub-icon-mobile" style="display: flex; align-items: center; line-height: 1; gap: 0.2em; margin-left: 0.5rem;">
+      {{ if $item.Params.featured }}<span style="font-size: 1.8em; line-height: 1; transform: translateY(0.1em); display: inline-block; font-weight: bold;">*</span>{{ end }}{{ if $item.Params.corresponding_author }}<span style="font-size: 1.0em; line-height: 1;">✉</span>{{ end }}
+    </span>
+    <style>
+      @media (min-width: 768px) {
+        .pub-icon-mobile {
+          display: none !important;
+        }
+      }
+    </style>
+    {{ end }}
   </div>
   {{ end }}
 
