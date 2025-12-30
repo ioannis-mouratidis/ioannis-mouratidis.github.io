@@ -53,6 +53,7 @@ sections:
     id: publications
     content:
       title: Publications
+      text: '<div style="display: flex; justify-content: center; gap: 2rem; margin-bottom: 1rem;"><span><strong>*</strong> indicates first or co-first author</span><span>✉ indicates corresponding author (project supervision)</span></div>'
       filters:
         folders:
           - publication
