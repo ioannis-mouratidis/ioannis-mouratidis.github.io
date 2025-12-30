@@ -1,6 +1,7 @@
 ---
 title: 'MAFcounter: an efficient tool for counting the occurrences of k-mers in MAF
   files'
+corresponding_author: true
 authors:
 - Michail Patsakis
 - Kimonas Provatas

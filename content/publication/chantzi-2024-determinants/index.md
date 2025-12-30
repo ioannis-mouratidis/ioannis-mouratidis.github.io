@@ -1,5 +1,6 @@
 ---
 title: The determinants of the rarity of nucleic and peptide short sequences in nature
+corresponding_author: true
 authors:
 - Nikol Chantzi
 - Manvita Mareboina
