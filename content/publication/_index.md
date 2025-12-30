@@ -16,7 +16,7 @@ banner:
 <style>
   /* Center title on mobile */
   @media (max-width: 767px) {
-    .page-header h1 {
+    article.prose h1 {
       text-align: center !important;
     }
   }
