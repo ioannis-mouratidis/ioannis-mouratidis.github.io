@@ -48,7 +48,7 @@ sections:
 
         I'm always interested in collaborative research opportunities in computational genomics and AI applications in biology.
     design:
-      columns: '1'
+      columns: '2'
   - block: collection
     id: publications
     content:
