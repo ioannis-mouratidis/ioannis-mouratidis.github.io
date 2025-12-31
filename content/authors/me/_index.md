@@ -38,13 +38,12 @@ profiles:
     url: https://github.com/ioannis-mouratidis
 
 interests:
-  - Genomic Foundation Models
-  - AI Evals & Adversarial Robustness
-  - K-mer Based Genomic Analysis
-  - Machine Learning for Cancer Detection
-  - Compression Algorithms for Genomic Data
-  - Non-B DNA Structures (Z-DNA)
-  - Nullomers & Minimal Absent Words
+  - AI Evals
+  - AI Safety
+  - Genomic Language Models
+  - Algorithms and Datastructures
+  - Pipeline Optimization
+  - AI x Bio
 
 education:
   - area: Ph.D. in Bioinformatics and Genomics
