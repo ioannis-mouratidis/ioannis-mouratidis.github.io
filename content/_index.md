@@ -38,6 +38,7 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
+    id: research-focus
     content:
       title: 'Research Focus'
       subtitle: ''
@@ -48,7 +49,7 @@ sections:
 
         I'm always interested in collaborative research opportunities in computational genomics and AI applications in biology.
     design:
-      columns: '2'
+      columns: '1'
   - block: collection
     id: publications
     content:

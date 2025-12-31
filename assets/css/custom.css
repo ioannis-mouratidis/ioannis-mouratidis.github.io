@@ -55,4 +55,10 @@ header a[title*="Mouratidis"] {
     flex-direction: row !important;
     gap: 3rem !important;
   }
+
+  /* Match Research Focus width to Publications section on desktop */
+  #research-focus > div,
+  #research-focus .prose {
+    max-width: 830px !important;
+  }
 }
