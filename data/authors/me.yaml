@@ -14,11 +14,10 @@ status:
   icon: "🧬"
 role: Senior Research Engineer/Scientist Associate
 bio: |
-  Machine learning and genomics researcher with 33 publications (10 first-/corresponding-author).
+  Machine learning and genomics researcher with 32 publications (10 first-/corresponding-author).
   Co-founded AI-driven cancer biomarker startup, authored grants securing $4M+ in competitive funding
-  and currently lead 5-member team developing computational and ML methods for large-scale genomic
-  data analysis, with emphasis on genomic foundation models, k-mer based approaches, and AI applications
-  in cancer detection.
+  and currently lead a 5-member team with a focus in developing novel computational methods and testing
+  the capabilities and safety profiles of biological foundation models.
 
 affiliations:
   - name: University of Texas at Austin
