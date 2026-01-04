@@ -38,16 +38,20 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
-    id: research-focus
+    id: about-me
     content:
-      title: 'Research Focus'
+      title: 'About Me'
       subtitle: ''
       text: |-
-        My research leverages machine learning and computational methods to advance genomic data analysis and cancer detection. I specialize in developing novel algorithms for k-mer based genomic analysis, ML for large-scale biological data analysis, and training and evaluating genomic foundation models.
+        I'm a computational biologist working at the intersection of AI and genomics, with a particular focus on understanding and ensuring the safety of foundation models in biology.
 
-        Key areas include: AI evals for genomic models, adversarial robustness in biological data, ML pipelines for liquid biopsy-based cancer detection, and analysis of non-B DNA structures. I've developed several open-source bioinformatics tools including kmerDB (a comprehensive genomic/proteomic sequence database) and Zseeker (Z-DNA detection tool).
+        My academic journey has taken me from mathematics to artificial intelligence, then to bioinformatics, and now back to AI with a focus on safety and foundation models in biology. Along the way, I've lived and worked in four different countries and worn many hats: from co-founding a cancer diagnostics startup to building research infrastructure from scratch, and from developing open-source bioinformatics tools to training genomic language models.
 
-        I'm always interested in collaborative research opportunities in computational genomics and AI applications in biology.
+        What drives my work is a conviction that as AI systems become increasingly capable, we need robust frameworks to evaluate their safety. Whether I'm assessing data poisoning vulnerabilities in genomic models or benchmarking the capabilities of state-of-the-art systems like Evo 2, I'm focused on ensuring these powerful tools advance science responsibly.
+
+        I'm passionate about mentorship and collaborative science. I've had the privilege of guiding researchers from their first steps in bioinformatics to their first publications, and I thrive in environments that balance rigorous research with the rapid iteration of startup culture.
+
+        When I'm not analyzing petabytes of genomic data, you'll find me jogging in Austin or working on learning foreign languages.
     design:
       columns: '1'
   - block: collection
