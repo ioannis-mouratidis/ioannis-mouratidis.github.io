@@ -148,21 +148,23 @@ authors: [me]
 featured: false
 ```
 
-**Author Profile** - **IMPORTANT: Two files must be kept in sync**:
+**Author Profile** - **IMPORTANT: Three files must be kept in sync**:
 
-1. **`data/authors/me.yaml`** (Primary - edit this first)
-   - Source of truth for biography blocks and widgets
-   - Loaded by `get_author_profile` function
-   - Used on homepage, experience page, and all profile components
-   - Contains: name, role, bio, affiliations, social links, interests, education, experience, skills, languages, awards
+1. **`data/authors/me.yaml`** (Homepage bio blurb)
+   - Contains `bio` field displayed on the main homepage biography block
+   - **Must be updated when publication counts or bio summary changes**
 
-2. **`content/authors/me/_index.md`** (Secondary - keep in sync)
+2. **`config/_default/params.yaml`** (Site-wide SEO description)
+   - Contains site meta description under `hugoblox.identity.description`
+   - Used for SEO, social sharing, and browser previews
+   - **Must be updated when publication counts or bio summary changes**
+
+3. **`content/authors/me/_index.md`** (Author profile page)
    - Creates standalone author profile page at `/authors/me/`
-   - Used when clicking author name in publication lists
-   - Front matter should mirror `me.yaml` for consistency
-   - Can include additional markdown content below front matter for bio page
+   - Contains "About Me" section in markdown below front matter
+   - **Must be updated when publication counts or bio changes**
 
-**Workflow**: Always edit `data/authors/me.yaml` first, then update `content/authors/me/_index.md` front matter to match
+**Workflow**: When updating bio/publication counts, update ALL THREE files: `data/authors/me.yaml` (bio), `params.yaml` (identity.description), and `content/authors/me/_index.md` (About Me section)
 
 ### Date Formatting
 
