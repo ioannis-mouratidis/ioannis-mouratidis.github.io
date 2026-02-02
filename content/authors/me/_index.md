@@ -173,7 +173,7 @@ awards:
 
 ## About Me
 
-I am a machine learning and genomics researcher with 33 publications (10 first-/corresponding-author) currently working at the University of Texas at Austin. My research focuses on developing computational and machine learning methods for large-scale genomic data analysis, with particular emphasis on genomic foundation models, k-mer based approaches, and AI applications in cancer detection.
+I am a machine learning and genomics researcher with 35 publications (10 first or senior author) currently working at the University of Texas at Austin. My research focuses on developing computational and machine learning methods for large-scale genomic data analysis, with particular emphasis on genomic foundation models, k-mer based approaches, and AI applications in cancer detection.
 
 I co-founded Neomer Diagnostics, an AI-driven cancer biomarker startup, and have authored grants securing over $4M in competitive funding. My work spans algorithm design, database development, and the creation of open-source bioinformatics tools including kmerDB and Zseeker.
 
