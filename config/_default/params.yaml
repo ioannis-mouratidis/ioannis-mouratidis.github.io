@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "Machine Learning & Genomics Researcher"
     # Site meta description for search engines and social sharing
-    description: "Machine learning and genomics researcher with 33 publications (10 first-/corresponding-author). Co-founded AI-driven cancer biomarker startup, authored grants securing $4M+ in competitive funding."
+    description: "Machine learning and genomics researcher with 35 publications (10 first or senior author). Co-founded AI-driven cancer biomarker startup, authored grants securing $4M+ in competitive funding."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""                       # Twitter/X handle for Twitter Cards (without @)
