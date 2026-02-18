@@ -51,7 +51,7 @@ sections:
 
         I'm passionate about mentorship and collaborative science. I've had the privilege of guiding researchers from their first steps in bioinformatics to their first publications, and I thrive in environments that balance rigorous research with the rapid iteration of startup culture.
 
-        When I'm not analyzing petabytes of genomic data, you'll find me jogging in Austin or working on learning foreign languages.
+        When I'm not analyzing petabytes of genomic data, you'll find me jogging in Austin or learning new languages.
     design:
       columns: '1'
   - block: collection
