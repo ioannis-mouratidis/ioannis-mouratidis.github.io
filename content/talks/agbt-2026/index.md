@@ -1,5 +1,5 @@
 ---
-title: "(Upcoming) Fundamental Limitations of Genomic Foundation Models for Sequence Generation"
+title: "Fundamental Limitations of Genomic Foundation Models for Sequence Generation"
 event: AGBT General Meeting
 event_url: ''
 location: Orlando, FL, USA
