@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ioannis Mouratidis
+title: Ioannis Mouratidis, PhD
 
 # Full name (for SEO)
 first_name: Ioannis
@@ -49,7 +49,7 @@ education:
   - area: Ph.D. in Bioinformatics and Genomics
     institution: The Pennsylvania State University
     date_start: 2023-08-01
-    date_end: 2026-01-01
+    date_end: 2026-04-01
     summary: |
       Doctoral thesis: Computational and Artificial Intelligence methods for large-scale omics data analysis
 

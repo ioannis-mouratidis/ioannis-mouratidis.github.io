@@ -9,7 +9,7 @@ name:
   pronunciation: ''
   pronouns: he/him
 postnominals:
-  - PhD (expected 2026)
+  - PhD
 status:
   icon: "🧬"
 role: Senior Research Engineer/Scientist Associate
@@ -46,7 +46,7 @@ education:
   - degree: PhD in Bioinformatics and Genomics
     institution: The Pennsylvania State University
     start: 2023-08-01
-    end: 2026-01-01
+    end: 2026-04-01
     summary: |
       Doctoral thesis: Computational and Artificial Intelligence methods for large-scale omics data analysis
 
