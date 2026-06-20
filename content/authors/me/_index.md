@@ -17,19 +17,16 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior Research Engineer/Scientist Associate
+role: Research Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: University of Texas at Austin
-    url: https://www.utexas.edu/
+  - name: Timaeus Research
+    url: https://timaeus.co
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:ioannis.mouratidis@austin.utexas.edu'
-    label: E-mail Me
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/mouratidis-ioannis/
   - icon: academicons/google-scholar
@@ -38,25 +35,24 @@ profiles:
     url: https://github.com/ioannis-mouratidis
 
 interests:
-  - AI Evals
   - AI Safety
-  - Genomic Language Models
-  - Algorithms and Datastructures
-  - Pipeline Optimization
-  - AI x Bio
+  - AI Alignment
+  - Evals
+  - Interpretability
+  - Biosecurity (AIxBio)
 
 education:
-  - area: Ph.D. in Bioinformatics and Genomics
+  - area: Ph.D. in Bioinformatics
     institution: The Pennsylvania State University
     date_start: 2023-08-01
     date_end: 2026-04-01
     summary: |
-      Doctoral thesis: Computational and Artificial Intelligence methods for large-scale omics data analysis
+      Doctoral thesis: Computational and machine learning methods for k-mer sequence analysis in large-scale omics data
 
       GPA: 4.0/4.0
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+      text: 'Download CV'
+      url: '/uploads/resume.pdf'
   - area: M.Sc. in Artificial Intelligence
     institution: KU Leuven
     date_start: 2020-09-01
@@ -73,18 +69,27 @@ education:
       Honours: Very Good
 
 work:
+  - position: Research Engineer
+    company_name: Timaeus Research
+    company_url: 'https://timaeus.co'
+    company_logo: ''
+    date_start: 2026-05-01
+    date_end: ''
+    summary: |
+      - Contribute to AI safety research at a leading alignment-focused organization, studying how capabilities and values emerge during model training, with the goal of building scalable interventions to align frontier models
+      - Develop core research infrastructure and translate exploratory prototypes into robust, scalable systems
   - position: Research Engineer/Scientist Associate V (Senior)
     company_name: University of Texas at Austin
     company_url: 'https://www.utexas.edu/'
     company_logo: ''
     date_start: 2025-08-01
-    date_end: ''
+    date_end: 2026-05-01
     summary: |
-      - Directed 10 research initiatives resulting in 2 peer-reviewed publications with 2 under review and 6 in preparation
-      - Lead 5-member team in developing, scaling and evaluating computational and ML methods in biological data
-      - Trained genomic foundation models to evaluate their susceptibility to adversarial data poisoning attacks
-      - Spearheaded novel compression tool in C++ and Python achieving 10-20% reduced file sizes and 50-70% faster compression times
-      - Led benchmarking of generative genomic models against real genomes
+      - Led a 5-member team and directed 12 research projects at the intersection of AI safety and biology, developing novel methods to evaluate and restrict dual-use capabilities of agentic LLMs and biological foundation models — misuse potential, adversarial robustness, and synthetic biology risk
+      - Spearheaded red-teaming of agentic AI scientists, discovering novel vulnerabilities
+      - Evaluated adversarial robustness of genomic foundation models, including susceptibility to data poisoning
+      - Directed benchmarking of genomic language models against real genomes, identifying systematic discrepancies that can be used to detect synthetically generated sequences
+      - Developed tamper-resistant weight-locking methods for open-weight biological AI models
   - position: Research Associate & Research Assistant
     company_name: The Pennsylvania State University
     company_url: 'https://www.psu.edu/'
@@ -92,11 +97,11 @@ work:
     date_start: 2023-08-01
     date_end: 2025-08-01
     summary: |
-      - Engineered novel algorithms in Python and Bash for k-mer analysis; 12 peer-reviewed publications (7 as first/corresponding author)
-      - Developed kmerDB database consolidating DNA/protein sequences across Genbank and UniProt
-      - Published Zseeker, an open-source Python tool for Z-DNA detection in large genomic datasets
-      - Engineered ML pipelines for cancer detection from cfDNA and cfRNA based on liquid biopsies
-      - Supervised 8+ researchers and mentored 5 junior researchers to their first lead-author publications
+      - Built a scalable High-Performance Computing pipeline in Slurm enabling the identification of pathogen biomarkers across 45,000 genome assemblies; led scaling to 500,000 assemblies
+      - Developed the kmerDB database consolidating short DNA and protein sequences across 60K+ genomes and proteomes; co-developed 4 additional public scientific databases
+      - Created the open-source ZSeeker tool; co-developed 5 additional open-source bioinformatics tools
+      - Supervised 8+ researchers and mentored 5 junior researchers to their first first-author publications
+      - Drafted grant applications resulting in $3M+ in competitive funding
   - position: Co-founder & Chief Technical Officer
     company_name: Neomer Diagnostics
     company_url: ''
@@ -104,22 +109,44 @@ work:
     date_start: 2022-01-01
     date_end: 2023-05-01
     summary: |
-      - Co-founded diagnostics startup translating patented nullomer research into clinical cancer detection platform
-      - Developed ML pipeline achieving AUC ranging from 0.89 to 0.94 in lung and ovarian cancers
-      - Established regulatory roadmap for clinical validation and FDA approval
-      - Secured $850K in translational research funding
+      - Co-founded a diagnostics startup, coordinating across technical, regulatory, and investor stakeholders to translate patented nullomer research into a clinical cancer-detection platform
+      - Developed an ML pipeline for cancer detection from liquid biopsies, achieving AUC ranging from 0.89 to 0.94
+      - Contributed to securing $850K through technology development and investor demos
+  - position: Software Engineering Consultant
+    company_name: Independent Contractor
+    company_url: ''
+    company_logo: ''
+    date_start: 2020-02-01
+    date_end: 2023-08-01
+    summary: |
+      - Optimized a cancer-genomics ML pipeline using Julia, achieving a 50-fold speedup and saving >3 months of computational time and $50K+ in costs
+      - Deployed and managed a genomic analysis pipeline on Google Cloud Platform, processing 14 TB of cfDNA sequencing data
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
+  - name: AI Safety
+    items:
+      - name: AI Evaluations
+        description: 'AI evals, dual-use risk assessment, red-teaming, threat modeling'
+        percent: 95
+        icon: chart-bar
+      - name: Alignment Research
+        description: 'Singular learning theory, training dynamics of capabilities and values'
+        percent: 80
+        icon: academic-cap
+      - name: Adversarial Robustness
+        description: 'Data poisoning, backdoor attacks, tamper-resistant weight-locking'
+        percent: 90
+        icon: bug-ant
   - name: Technical Skills
     items:
       - name: Python
-        description: 'Pandas, NumPy, scikit-learn, PyTorch, Matplotlib'
+        description: 'PyTorch, scikit-learn, Pandas, NumPy, FastMCP'
         percent: 95
         icon: code-bracket
       - name: Machine Learning
-        description: 'AI evals, genomic Language Models, algorithm design and optimization'
+        description: 'Empirical ML research, genomic language models, algorithm design and optimization'
         percent: 90
         icon: chart-bar
       - name: Bioinformatics
@@ -148,6 +175,20 @@ skills:
         icon: language
 
 awards:
+  - title: Alumni Graduate School Association Dissertation Award
+    url: ''
+    date: '2026-01-01'
+    awarder: Penn State
+    icon: ''
+    summary: |
+      Awarded to the top ~2% of graduating doctoral students for outstanding dissertation research.
+  - title: Center for Molecular Carcinogenesis and Toxicology Symposium Abstract Award
+    url: ''
+    date: '2024-01-01'
+    awarder: Penn State College of Medicine
+    icon: ''
+    summary: |
+      1st place award for outstanding research presentation.
   - title: Alumni Society Award
     url: ''
     date: '2024-01-01'
@@ -173,8 +214,10 @@ awards:
 
 ## About Me
 
-I am a machine learning and genomics researcher with 35 publications (10 first or senior author) currently working at the University of Texas at Austin. My research focuses on developing computational and machine learning methods for large-scale genomic data analysis, with particular emphasis on genomic foundation models, k-mer based approaches, and AI applications in cancer detection.
+I'm a research engineer working on AI safety and alignment at Timaeus, where I study how capabilities and values emerge during model training and help build scalable interventions to align frontier models.
 
-I co-founded Neomer Diagnostics, an AI-driven cancer biomarker startup, and have authored grants securing over $4M in competitive funding. My work spans algorithm design, database development, and the creation of open-source bioinformatics tools including kmerDB and Zseeker.
+I came to alignment from the frontier of AIxBio. Through a PhD in bioinformatics and years leading computational genomics teams, I built deep expertise in biological foundation models and biosecurity — red-teaming agentic AI scientists, evaluating the dual-use capabilities and adversarial robustness of genomic language models, studying data-poisoning and backdoor attacks, and developing tamper-resistant weight-locking for open-weight biological AI. That domain grounding is what I now bring to general questions of AI safety.
 
-I lead a 5-member research team and am passionate about mentoring junior researchers, having supervised 8+ researchers and mentored 5 to their first lead-author publications.
+My path has run from mathematics to artificial intelligence to bioinformatics and back to AI safety, across four countries and many hats: co-founding a cancer-diagnostics startup, building research infrastructure from scratch, and publishing open-source tools used across the field. Along the way I authored grants securing over $4M in competitive funding.
+
+I care about rigorous, empirical safety research and about mentorship—I've guided researchers from their first steps in the field to their first lead-author publications. When I'm not working, you'll find me running or learning a new language.

@@ -2,9 +2,9 @@
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem; position: relative;">
-  {{ if or $item.Params.featured $item.Params.corresponding_author }}
+  {{ if or $item.Params.first_author $item.Params.corresponding_author }}
   <span class="pub-icon" aria-hidden="true" style="display: none;">
-    {{ if $item.Params.featured }}<span style="font-size: 1.8em; line-height: 1; transform: translateY(0.1em); display: inline-block; font-weight: bold;">*</span>{{ end }}{{ if $item.Params.corresponding_author }}<span style="font-size: 1.0em; line-height: 1;">✉</span>{{ end }}
+    {{ if $item.Params.first_author }}<span style="font-size: 1.8em; line-height: 1; transform: translateY(0.1em); display: inline-block; font-weight: bold;">*</span>{{ end }}{{ if $item.Params.corresponding_author }}<span style="font-size: 1.0em; line-height: 1;">✉</span>{{ end }}
   </span>
   <style>
     @media (min-width: 768px) {
@@ -54,9 +54,9 @@
   {{ if $has_attachments }}
   <div class="flex flex-wrap space-x-3" style="align-items: center;">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-    {{ if or $item.Params.featured $item.Params.corresponding_author }}
+    {{ if or $item.Params.first_author $item.Params.corresponding_author }}
     <span class="pub-icon-mobile" style="display: flex; align-items: center; line-height: 1; gap: 0.2em; margin-left: 0.5rem;">
-      {{ if $item.Params.featured }}<span style="font-size: 1.8em; line-height: 1; transform: translateY(0.1em); display: inline-block; font-weight: bold;">*</span>{{ end }}{{ if $item.Params.corresponding_author }}<span style="font-size: 1.0em; line-height: 1;">✉</span>{{ end }}
+      {{ if $item.Params.first_author }}<span style="font-size: 1.8em; line-height: 1; transform: translateY(0.1em); display: inline-block; font-weight: bold;">*</span>{{ end }}{{ if $item.Params.corresponding_author }}<span style="font-size: 1.0em; line-height: 1;">✉</span>{{ end }}
     </span>
     <style>
       @media (min-width: 768px) {
@@ -100,9 +100,9 @@
   {{ if $has_attachments }}
   <div class="flex flex-wrap space-x-3" style="align-items: center;">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
-    {{ if or $item.Params.featured $item.Params.corresponding_author }}
+    {{ if or $item.Params.first_author $item.Params.corresponding_author }}
     <span class="pub-icon-mobile" style="display: flex; align-items: center; line-height: 1; gap: 0.2em; margin-left: 0.5rem;">
-      {{ if $item.Params.featured }}<span style="font-size: 1.8em; line-height: 1; transform: translateY(0.1em); display: inline-block; font-weight: bold;">*</span>{{ end }}{{ if $item.Params.corresponding_author }}<span style="font-size: 1.0em; line-height: 1;">✉</span>{{ end }}
+      {{ if $item.Params.first_author }}<span style="font-size: 1.8em; line-height: 1; transform: translateY(0.1em); display: inline-block; font-weight: bold;">*</span>{{ end }}{{ if $item.Params.corresponding_author }}<span style="font-size: 1.0em; line-height: 1;">✉</span>{{ end }}
     </span>
     <style>
       @media (min-width: 768px) {

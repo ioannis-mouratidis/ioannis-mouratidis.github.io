@@ -12,21 +12,20 @@ postnominals:
   - PhD
 status:
   icon: "🧬"
-role: Senior Research Engineer/Scientist Associate
+role: Research Engineer
 bio: |
-  Machine learning and genomics researcher with 35 publications (10 first or senior author).
-  Co-founded AI-driven cancer biomarker startup, authored grants securing $4M+ in competitive funding
-  and currently lead a 5-member team with a focus in developing novel computational methods and testing
-  the capabilities and safety profiles of biological foundation models.
+  Research engineer focused on AI safety, alignment, and AIxBio security. I study how
+  capabilities and values emerge during model training and build scalable interventions to align
+  frontier models, drawing on deep expertise in biosecurity and biological foundation models.
+  38 publications (12 first or senior author) and 3 patents in large-scale data analysis and ML
+  for biology; co-founded an AI-driven cancer-diagnostics startup and authored grants securing
+  $4M+ in competitive funding.
 
 affiliations:
-  - name: University of Texas at Austin
-    url: https://www.utexas.edu/
+  - name: Timaeus Research
+    url: https://timaeus.co
 
 links:
-  - icon: at-symbol
-    url: mailto:ioannis.mouratidis@austin.utexas.edu
-    label: E-mail Me
   - icon: brands/github
     url: https://github.com/ioannis-mouratidis
   - icon: brands/linkedin
@@ -35,20 +34,19 @@ links:
     url: https://scholar.google.com/citations?user=UowZjXsAAAAJ
 
 interests:
-  - AI Evals
   - AI Safety
-  - Genomic Language Models
-  - Algorithms and Datastructures
-  - Pipeline Optimization
-  - AI x Bio
+  - AI Alignment
+  - Evals
+  - Interpretability
+  - Biosecurity (AIxBio)
 
 education:
-  - degree: PhD in Bioinformatics and Genomics
+  - degree: PhD in Bioinformatics
     institution: The Pennsylvania State University
     start: 2023-08-01
     end: 2026-04-01
     summary: |
-      Doctoral thesis: Computational and Artificial Intelligence methods for large-scale omics data analysis
+      Doctoral thesis: Computational and machine learning methods for k-mer sequence analysis in large-scale omics data
 
       GPA: 4.0/4.0
     button:
@@ -71,63 +69,77 @@ education:
       Honours: Very Good
 
 experience:
-  - role: Senior Research Engineer/Scientist Associate (Senior)
+  - role: Research Engineer
+    org: Timaeus Research
+    start: 2026-05-01
+    summary: |
+      - Contribute to AI safety research at a leading alignment-focused organization, studying how capabilities and values emerge during model training, with the goal of building scalable interventions to align frontier models
+      - Develop core research infrastructure and translate exploratory prototypes into robust, scalable systems
+  - role: Research Engineer/Scientist Associate V (Senior)
     org: University of Texas at Austin
     start: 2025-08-01
+    end: 2026-05-01
     summary: |
-      - Directed 10 research initiatives (4 independently, 6 collaboratively) resulting in 2 peer-reviewed publications with 2 under review and 6 in preparation
-      - Lead 5-member team in developing, scaling and evaluating computational and ML methods in biological data
-      - Trained genomic foundation models to evaluate their susceptibility to adversarial data poisoning attacks
-      - Spearheaded novel compression tool in C++ and Python achieving 10-20% reduced file sizes and 50-70% faster compression times
-      - Led benchmarking of generative genomic models against real genomes
+      - Led a 5-member team and directed 12 research projects (4 independently, 8 collaboratively) at the intersection of AI safety and biology, developing novel methods to evaluate and restrict dual-use capabilities of agentic LLMs and biological foundation models — misuse potential, adversarial robustness, and synthetic biology risk
+      - Spearheaded red-teaming of agentic AI scientists, discovering novel vulnerabilities
+      - Evaluated adversarial robustness of genomic foundation models, including susceptibility to data poisoning
+      - Directed benchmarking of genomic language models against real genomes, identifying systematic discrepancies that can be used to detect synthetically generated sequences
+      - Developed tamper-resistant weight-locking methods for open-weight biological AI models
   - role: Research Associate & Research Assistant
     org: The Pennsylvania State University
     start: 2023-08-01
     end: 2025-08-01
     summary: |
-      - Engineered novel algorithms in Python and Bash for k-mer analysis; 12 peer-reviewed publications (7 as first/corresponding author)
-      - Developed kmerDB database consolidating DNA/protein sequences across Genbank and UniProt
-      - Published Zseeker, an open-source Python tool for Z-DNA detection in large genomic datasets
-      - Engineered ML pipelines for cancer detection from cfDNA and cfRNA based on liquid biopsies
-      - Supervised 8+ researchers and mentored 5 junior researchers to their first lead-author publications
-      - Organized workshop series around AI applications in biological research attended by 30+ participants
+      - Built a scalable High-Performance Computing pipeline in Slurm enabling the identification of pathogen biomarkers across 45,000 genome assemblies; led scaling to 500,000 assemblies
+      - Developed the kmerDB database consolidating short DNA and protein sequences across 60K+ genomes and proteomes; co-developed 4 additional public scientific databases
+      - Created the open-source ZSeeker tool; co-developed 5 additional open-source bioinformatics tools
+      - Supervised 8+ researchers and mentored 5 junior researchers to their first first-author publications
+      - Drafted grant applications resulting in $3M+ in competitive funding
   - role: Co-founder & Chief Technical Officer
     org: Neomer Diagnostics
     start: 2022-01-01
     end: 2023-05-01
     summary: |
-      - Co-founded diagnostics startup translating patented nullomer research into clinical cancer detection platform
-      - Developed ML pipeline in Bash, Julia, Python, and Slurm achieving AUC ranging from 0.89 to 0.94 in lung and ovarian cancers
-      - Established regulatory roadmap for clinical validation and FDA approval
-      - Secured $850K in translational research funding
+      - Co-founded a diagnostics startup, coordinating across technical, regulatory, and investor stakeholders to translate patented nullomer research into a clinical cancer-detection platform
+      - Developed an ML pipeline for cancer detection from liquid biopsies, achieving AUC ranging from 0.89 to 0.94
+      - Contributed to securing $850K through technology development and investor demos
   - role: Software Engineering Consultant
     org: Independent Contractor
     start: 2020-02-01
     end: 2023-08-01
     summary: |
-      - Optimized cancer genomics ML pipeline using Julia, achieving 50-fold speed increase, saving >3 months of computational time and $50K+ in costs
-      - Created distributed computing pipelines for analysis of 100+TB of genomic data
-      - Deployed and managed genomic analysis pipeline to Google Cloud Platform
-      - Engineered compression procedure achieving 100-fold reduction, enabling development of kmerDB database
+      - Optimized a cancer-genomics ML pipeline using Julia, achieving a 50-fold speedup and saving >3 months of computational time and $50K+ in costs
+      - Deployed and managed a genomic analysis pipeline on Google Cloud Platform, processing 14 TB of cfDNA sequencing data
 
 skills:
+  - name: AI Safety
+    items:
+      - label: AI Evaluations
+        level: 5
+        description: AI evals, dual-use risk assessment, red-teaming, threat modeling
+      - label: Alignment Research
+        level: 4
+        description: Singular learning theory, training dynamics of capabilities and values
+      - label: Adversarial Robustness
+        level: 5
+        description: Data poisoning, backdoor attacks, tamper-resistant weight-locking
   - name: Technical Skills
     items:
       - label: Python
         level: 5
-        description: Pandas, NumPy, scikit-learn, PyTorch, Matplotlib
+        description: PyTorch, scikit-learn, Pandas, NumPy, FastMCP
       - label: Machine Learning
         level: 5
-        description: AI evals, genomic Language Models, algorithm design and optimization
+        description: Empirical ML research, genomic language models, algorithm design and optimization
       - label: Bioinformatics
         level: 5
         description: Large-scale genomic data analysis, k-mer methods, ML pipelines
       - label: Programming
         level: 4
         description: Bash, Julia, C++, Java
-      - label: Cloud & Tools
+      - label: HPC & Cloud
         level: 4
-        description: Google Cloud Platform, Git, Docker, Scientific Computing
+        description: Slurm, SkyPilot, Google Cloud Platform, Git, Docker
 
 languages:
   - name: Greek
@@ -147,6 +159,11 @@ languages:
     label: Elementary
 
 awards:
+  - title: Alumni Graduate School Association Dissertation Award
+    awarder: Penn State
+    date: "2026-01-01"
+    summary: Awarded to the top ~2% of graduating doctoral students for outstanding dissertation research
+    icon: hero/trophy
   - title: Center for Molecular Carcinogenesis and Toxicology Symposium Abstract Award
     awarder: Penn State College of Medicine
     date: "2024-01-01"

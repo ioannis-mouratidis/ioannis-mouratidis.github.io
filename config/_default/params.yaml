@@ -15,13 +15,13 @@ hugoblox:
     # Site name - shown in navbar, footer, copyright, and browser title by default
     name: "Ioannis Mouratidis"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: "University of Texas at Austin"
+    organization: "Ioannis Mouratidis"
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Machine Learning & Genomics Researcher"
+    tagline: "AI Safety, Alignment & AIxBio Security"
     # Site meta description for search engines and social sharing
-    description: "Machine learning and genomics researcher with 35 publications (10 first or senior author). Co-founded AI-driven cancer biomarker startup, authored grants securing $4M+ in competitive funding."
+    description: "AI safety research engineer at Timaeus working on alignment and AIxBio security, with deep expertise in biosecurity and biological foundation models. 38 publications (12 first or senior author), 3 patents, and $4M+ in research funding."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""                       # Twitter/X handle for Twitter Cards (without @)
@@ -89,7 +89,7 @@ hugoblox:
     # Menu alignment
     align: center                       # left | center | right
     # Feature toggles
-    search: true
+    search: false
     theme_toggle: true
     theme_picker: true
     language_switcher: true
@@ -173,7 +173,7 @@ hugoblox:
   # Site search
   # ────────────────────────────────────────────────────────────────────────────
   search:
-    enable: true
+    enable: false
     # Trending/suggested search terms
     suggestions: []
     # Quick action shortcuts in search modal

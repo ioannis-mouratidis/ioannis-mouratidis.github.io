@@ -1,7 +1,8 @@
 ---
 title: Frequentmers-a novel way to look at metagenomic next generation sequencing
   data and an application in detecting liver cirrhosis
-featured: true
+featured: false
+first_author: true
 corresponding_author: true
 authors:
 - Ioannis Mouratidis

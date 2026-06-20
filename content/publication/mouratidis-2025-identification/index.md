@@ -1,6 +1,7 @@
 ---
 title: Identification of the shortest species-specific oligonucleotide sequences
-featured: true
+featured: false
+first_author: true
 corresponding_author: true
 authors:
 - Ioannis Mouratidis

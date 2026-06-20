@@ -1,6 +1,7 @@
 ---
 title: 'ZSeeker: an optimized algorithm for Z-DNA detection in genomic sequences'
 featured: true
+first_author: true
 authors:
 - Guliang Wang
 - Ioannis Mouratidis

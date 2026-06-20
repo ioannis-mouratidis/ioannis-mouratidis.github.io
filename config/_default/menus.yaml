@@ -8,11 +8,14 @@ main:
     url: /
     weight: 10
   - name: Publications
-    url: /#publications
+    url: /#selected-publications
     weight: 11
   - name: Talks
     url: /#talks
     weight: 12
+  - name: Patents
+    url: /#patents
+    weight: 13
   - name: CV
     url: /uploads/resume.pdf
     weight: 20

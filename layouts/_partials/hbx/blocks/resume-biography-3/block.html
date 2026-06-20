@@ -201,8 +201,8 @@
                     {{ $start := or .start .date_start }}
                     {{ $end := or .end .date_end }}
                     <p class="text-gray-500 dark:text-gray-400 text-sm mt-2">
-                      {{ time.Format $date_format (time $start) }}
-                      {{ if $end }} – {{ time.Format $date_format (time $end) }}{{ end }}
+                      {{ time.Format "2006" (time $start) }}
+                      {{ if $end }} – {{ time.Format "2006" (time $end) }}{{ end }}
                     </p>
                   {{ end }}
                   <p class="text-gray-700 dark:text-gray-300 text-base">{{ .institution }}</p>

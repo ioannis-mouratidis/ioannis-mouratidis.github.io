@@ -1,5 +1,5 @@
 ---
-title: Characterization of hairpin loops and cruciforms across 118,065 genomes spanning
+title: Characterization of hairpin loops and cruciforms across 118,019 genomes spanning
   the tree of life
 authors:
 - Nikol Chantzi
@@ -11,12 +11,12 @@ authors:
 - Dionysios Chartoumpekis
 - Karen M Vasquez
 - Ilias Georgakopoulos-Soares
-date: '2024-01-01'
+date: '2026-01-01'
 publishDate: '2025-12-30T17:22:15.890144Z'
 publication_types:
 - article-journal
-publication: '*bioRxiv*'
+publication: '*Genome Biology and Evolution, 18(5), evag089*'
 hugoblox:
   ids:
-    doi: 10.1101/2024.09.29.615628
+    doi: 10.1093/gbe/evag089
 ---

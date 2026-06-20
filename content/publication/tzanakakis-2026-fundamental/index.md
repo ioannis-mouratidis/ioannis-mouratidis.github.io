@@ -1,5 +1,6 @@
 ---
 title: Fundamental limitations of genomic language models for realistic sequence generation
+featured: true
 corresponding_author: true
 authors:
 - Alexandros Tzanakakis
