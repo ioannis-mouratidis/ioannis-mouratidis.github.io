@@ -22,8 +22,8 @@ bio: |
   $4M+ in competitive funding.
 
 affiliations:
-  - name: Timaeus Research
-    url: https://timaeus.co
+  - name: Resolution
+    url: https://resolution.org
 
 links:
   - icon: brands/github
@@ -70,7 +70,7 @@ education:
 
 experience:
   - role: Research Engineer
-    org: Timaeus Research
+    org: Resolution
     start: 2026-05-01
     summary: |
       - Contribute to AI safety research at a leading alignment-focused organization, studying how capabilities and values emerge during model training, with the goal of building scalable interventions to align frontier models
