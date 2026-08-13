@@ -21,7 +21,7 @@ hugoblox:
     # Short tagline displayed on your site
     tagline: "AI Safety, Alignment & AIxBio Security"
     # Site meta description for search engines and social sharing
-    description: "AI safety research engineer at Resolution working on alignment and AIxBio security, with deep expertise in biosecurity and biological foundation models. 38 publications (12 first or senior author), 3 patents, and $4M+ in research funding."
+    description: "AI safety research engineer at Timaeus working on alignment and AIxBio security, with deep expertise in biosecurity and biological foundation models. 38 publications (12 first or senior author), 3 patents, and $4M+ in research funding."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: ""                       # Twitter/X handle for Twitter Cards (without @)

@@ -43,7 +43,7 @@ sections:
       title: 'About Me'
       subtitle: ''
       text: |-
-        I'm a research engineer working on AI safety and alignment at Resolution, where I study how capabilities and values emerge during model training and help build scalable interventions to align frontier models.
+        I'm a research engineer working on AI safety and alignment at Timaeus, where I study how capabilities and values emerge during model training and help build scalable interventions to align frontier models.
 
         I came to alignment from the frontier of AIxBio. Through a PhD in bioinformatics and years leading computational genomics teams, I built deep expertise in biological foundation models and biosecurity—red-teaming agentic AI scientists, evaluating the dual-use capabilities and adversarial robustness of genomic language models, studying data-poisoning and backdoor attacks, and developing tamper-resistant weight-locking for open-weight biological AI. That domain grounding is what I now bring to general questions of AI safety.
 
