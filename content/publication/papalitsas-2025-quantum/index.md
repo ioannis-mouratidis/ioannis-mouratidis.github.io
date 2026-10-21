@@ -1,5 +1,5 @@
 ---
-title: Quantum implementation of multi-pattern string matching for k-mer detection
+title: A foundational quantum framework for multi-pattern string matching in k-mer detection
 authors:
 - Christos Papalitsas
 - Ioannis Mouratidis
@@ -7,12 +7,12 @@ authors:
 - Evangelos Stogiannos
 - Ilias Georgakopoulos-Soares
 - Grigorios Koulouras
-date: '2025-01-01'
+date: '2026-06-12'
 publishDate: '2025-12-30T17:22:16.070727Z'
 publication_types:
 - article-journal
-publication: '*bioRxiv*'
+publication: '*Frontiers in Bioinformatics, 6, 1802517*'
 hugoblox:
   ids:
-    doi: 10.64898/2025.12.21.695808
+    doi: 10.3389/fbinf.2026.1802517
 ---

@@ -147,7 +147,7 @@ sections:
       title: 'Contact'
       subtitle: ''
       text: |-
-        **Location:** Austin, Texas
+        **Location:** Berkeley, CA
 
         Reach me on [LinkedIn](https://www.linkedin.com/in/mouratidis-ioannis/). I'm always open to discussing AI safety and alignment research, including AIxBio safety.
     design:
